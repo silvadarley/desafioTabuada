@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./Css/style.css">
+
+</head>
+<body>
+    <header>
+        <img src="./imagem/logo.svg" alt="">
+        <h1>Tabuada</h1>
+    </header>
+    
+    <section>
+        <div>
+            <p>
+                Qual tabuada você deseja saber? <br>
+                <input id="num" type="number" name="" class="form" >
+            </p>
+
+            <p>
+                Até que numero você deseja? <br>
+                <input id="end" type="number" name="" class="form">
+            </p>
+
+            <p>
+                <input id="botao" type="button" 
+                    onclick="tabuada()"
+                value="Calcular">
+            </p>
+        </div>
+
+        <div id="resposta">
+            Preencha os valores acima!
+
+        </div>
+    </section>
+    <script src="./javaScript/script.js"></script>
+</body>
+</html>
